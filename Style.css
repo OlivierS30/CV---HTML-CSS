@@ -1,0 +1,142 @@
+body {
+    background-color: #fff;
+    color: black;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/*******************
+header**************/
+
+header {
+    margin-bottom: 100px;
+}
+
+
+h1 {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+img {
+    position: absolute;
+	margin-left: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+header p {
+    margin-left: 400px;
+    padding: 0;
+}
+
+hr {
+    width: 50%;
+    margin-left: 400px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    padding: 0;
+    width: 50%;
+}
+
+header li {
+    list-style-type: none;
+}
+
+.separation {
+    border-right: 1px black solid;
+    padding-right: 20px;
+}
+
+/****************Fin
+header**************/
+
+/*******************
+main***************/
+
+main {
+    margin-bottom: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    position: absolute;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+
+h3 {
+    position: absolute;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+.paragraphe {
+    width: 50%;
+}
+
+.titre {
+    width: 350px;
+    margin-left: 0;
+    text-align: end;
+}
+
+p {
+    width: 60%;
+    text-align: justify;
+    margin-left: 400px;
+}
+
+section ul {
+    margin-left: 400px;
+}
+
+/*******************
+fin main***********/
+
+/*******************
+footer*************/
+
+footer {
+    display: flex;
+}
+
+.liste {
+    flex-direction: column;
+}
+
+footer li {
+    list-style: none;
+    border: 1px black solid;
+    margin-bottom: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+
+footer h2 {
+    margin-top: 20px;
+}
+
+#liste {
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 0;
+    height: 90px;
+    width: 350px;
+}
+
+#liste2 {
+    height: 90px;
+    margin-top: 20px;
+    width: 350px;
+}
+
+/*******************
+footer*************/
